@@ -9,7 +9,7 @@
 ### 先安装一个 nvm（ https://github.com/creationix/nvm ）
 
 ```
-$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.25.2/install.sh | bash
+$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
 ```
 
 nvm 的全称是 **Node Version Manager**，之所以需要这个工具，是因为 Node.js 的各种特性都没有稳定下来，所以我们经常由于老项目或尝新的原因，需要切换各种版本。
@@ -24,10 +24,10 @@ $ nvm
 
 ### 安装 Node.js
 
-使用 nvm 的命令安装 Node.js 最新稳定版，现在是 `v0.12.3`。
+使用 nvm 的命令安装 Node.js TLS版，现在是 `v4.2.2`。
 
 ```
-$ nvm install 0.12
+$ nvm install 4.2
 ```
 
 安装完成后，查看一下
